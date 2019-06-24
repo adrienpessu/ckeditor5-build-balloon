@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-balloon",
+  "name": "@adrienpessu/ckeditor5-build-balloon-font",
   "version": "12.2.0",
   "description": "The balloon editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
@@ -31,6 +31,7 @@
     "@ckeditor/ckeditor5-block-quote": "^11.1.0",
     "@ckeditor/ckeditor5-ckfinder": "^11.0.2",
     "@ckeditor/ckeditor5-core": "^12.1.1",
+    "@ckeditor/ckeditor5-font": "^11.1.1",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.0",
     "@ckeditor/ckeditor5-easy-image": "^11.0.2",

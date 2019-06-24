@@ -27,6 +27,8 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
+import FontBackgroudColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
@@ -52,7 +54,9 @@ BalloonEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+	FontColor,
+	FontBackgroudColor
 ];
 
 // Editor configuration.
@@ -71,7 +75,9 @@ BalloonEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'fontColor',
+			'fontBackgroundColor'
 		]
 	},
 	image: {
@@ -90,5 +96,5 @@ BalloonEditor.defaultConfig = {
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'fr'
 };

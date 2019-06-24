@@ -1,8 +1,8 @@
-CKEditor 5 balloon editor build
+CKEditor 5 balloon editor build + font
 ==============================================
 
 [![Join the chat at https://gitter.im/ckeditor/ckeditor5](https://badges.gitter.im/ckeditor/ckeditor5.svg)](https://gitter.im/ckeditor/ckeditor5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-balloon.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-balloon)
+[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-balloon.svg)](https://www.npmjs.com/package/@adrienpessu/ckeditor5-build-balloon-front)
 [![Build Status](https://travis-ci.org/ckeditor/ckeditor5-build-balloon.svg?branch=master)](https://travis-ci.org/ckeditor/ckeditor5-build-balloon)
 <br>
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-build-balloon/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-balloon)
@@ -26,7 +26,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-balloon
+npm install --save @adrienpessu/ckeditor5-build-balloon-front
 ```
 
 And use it in your website:
@@ -35,7 +35,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-balloon/build/ckeditor.js"></script>
+<script src="./node_modules/@adrienpessu/ckeditor5-build-balloon-front/build/ckeditor.js"></script>
 <script>
 	BalloonEditor
 		.create( document.querySelector( '#editor' ) )
@@ -51,10 +51,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import BalloonEditor from '@ckeditor/ckeditor5-build-balloon';
+import BalloonEditor from '@adrienpessu/ckeditor5-build-balloon-front';
 
 // Or using the CommonJS version:
-// const BalloonEditor = require( '@ckeditor/ckeditor5-build-balloon' );
+// const BalloonEditor = require( '@adrienpessu/ckeditor5-build-balloon-front' );
 
 BalloonEditor
 	.create( document.querySelector( '#editor' ) )
