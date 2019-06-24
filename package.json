@@ -64,10 +64,10 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5-build-balloon/issues",
+  "bugs": "https://github.com/adrienpessu/ckeditor5-build-balloon-front/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-balloon.git"
+    "url": "https://github.com/adrienpessu/ckeditor5-build-balloon-front.git"
   },
   "scripts": {
     "build": "webpack --mode production",
