@@ -1,5 +1,5 @@
 {
-  "name": "@adrienpessu/ckeditor5-build-balloon-font",
+  "name": "adrienpessu/ckeditor5-build-balloon-font",
   "version": "12.2.0",
   "description": "The balloon editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
