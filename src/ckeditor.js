@@ -8,6 +8,7 @@ import BalloonEditorBase from '@ckeditor/ckeditor5-editor-balloon/src/balloonedi
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
@@ -29,12 +30,14 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontBackgroudColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
 // Plugins to include in the build.
 BalloonEditor.builtinPlugins = [
 	Essentials,
+	Alignment,
 	UploadAdapter,
 	Autoformat,
 	Bold,
@@ -56,7 +59,8 @@ BalloonEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	FontColor,
-	FontBackgroudColor
+	FontBackgroudColor,
+	Underline
 ];
 
 // Editor configuration.
@@ -67,6 +71,8 @@ BalloonEditor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
+			'underline',
+			'alignment',
 			'link',
 			'bulletedList',
 			'numberedList',
